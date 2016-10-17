@@ -3,7 +3,7 @@
 //  OpenCvImageCorrection
 //
 //  Created by lonelyBanana on 16/10/8.
-//  Copyright © 2016年 lonelyBanana. All rights reserved.//com.lonelyBanana.OpenCvImageCorrection
+//  Copyright © 2016年 lonelyBanana. All rights reserved.//
 //
 
 #import "AppDelegate.h"
