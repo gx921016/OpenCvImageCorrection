@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		409747A5640BB2517EE57D0A /* libPods-OpenCvImageCorrection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C49BCA1873EB49756A5D869 /* libPods-OpenCvImageCorrection.a */; };
+		6CB3E8D81DA896A800B9D790 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E8D71DA896A800B9D790 /* main.m */; };
+		6CB3E8DB1DA896A800B9D790 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E8DA1DA896A800B9D790 /* AppDelegate.m */; };
+		6CB3E8DE1DA896A800B9D790 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E8DD1DA896A800B9D790 /* ViewController.m */; };
+		6CB3E8E11DA896A800B9D790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB3E8DF1DA896A800B9D790 /* Main.storyboard */; };
+		6CB3E8E41DA896A800B9D790 /* OpenCvImageCorrection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E8E21DA896A800B9D790 /* OpenCvImageCorrection.xcdatamodeld */; };
+		6CB3E8E61DA896A800B9D790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB3E8E51DA896A800B9D790 /* Assets.xcassets */; };
+		6CB3E8E91DA896A800B9D790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB3E8E71DA896A800B9D790 /* LaunchScreen.storyboard */; };
+		6CB3E8F41DA896A800B9D790 /* OpenCvImageCorrectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E8F31DA896A800B9D790 /* OpenCvImageCorrectionTests.m */; };
+		6CB3E8FF1DA896A800B9D790 /* OpenCvImageCorrectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E8FE1DA896A800B9D790 /* OpenCvImageCorrectionUITests.m */; };
+		6CB3E90D1DA897D700B9D790 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB3E90C1DA897D600B9D790 /* opencv2.framework */; };
+		6CB3E92D1DA89F8000B9D790 /* Camera in Resources */ = {isa = PBXBuildFile; fileRef = 6CB3E90F1DA89F8000B9D790 /* Camera */; };
+		6CB3E92E1DA89F8000B9D790 /* CameraSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E9121DA89F8000B9D790 /* CameraSessionView.m */; };
+		6CB3E92F1DA89F8000B9D790 /* Graphical in Resources */ = {isa = PBXBuildFile; fileRef = 6CB3E9131DA89F8000B9D790 /* Graphical */; };
+		6CB3E9301DA89F8000B9D790 /* CameraDismissButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E9171DA89F8000B9D790 /* CameraDismissButton.m */; };
+		6CB3E9311DA89F8000B9D790 /* CameraFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E9191DA89F8000B9D790 /* CameraFlashButton.m */; };
+		6CB3E9321DA89F8000B9D790 /* CameraFocalReticule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E91B1DA89F8000B9D790 /* CameraFocalReticule.m */; };
+		6CB3E9331DA89F8000B9D790 /* CameraShutterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E91D1DA89F8000B9D790 /* CameraShutterButton.m */; };
+		6CB3E9341DA89F8000B9D790 /* CameraToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E91F1DA89F8000B9D790 /* CameraToggleButton.m */; };
+		6CB3E9351DA89F8000B9D790 /* LaunchCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E9211DA89F8000B9D790 /* LaunchCameraButton.m */; };
+		6CB3E9361DA89F8000B9D790 /* Cool Camera Mockup.sketch in Resources */ = {isa = PBXBuildFile; fileRef = 6CB3E9221DA89F8000B9D790 /* Cool Camera Mockup.sketch */; };
+		6CB3E9371DA89F8000B9D790 /* PaintCodeFile.pcvd in Resources */ = {isa = PBXBuildFile; fileRef = 6CB3E9231DA89F8000B9D790 /* PaintCodeFile.pcvd */; };
+		6CB3E9381DA89F8000B9D790 /* CameraStyleKitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E9261DA89F8000B9D790 /* CameraStyleKitClass.m */; };
+		6CB3E9391DA89F8000B9D790 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 6CB3E9271DA89F8000B9D790 /* Model */; };
+		6CB3E93A1DA89F8000B9D790 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E92A1DA89F8000B9D790 /* CaptureSessionManager.m */; };
+		6CB3E93B1DA89F8000B9D790 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E92C1DA89F8000B9D790 /* Constants.m */; };
+		6CB3E9431DA8A02300B9D790 /* UIColor+HexRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E93E1DA8A02300B9D790 /* UIColor+HexRepresentation.m */; };
+		6CB3E9441DA8A02300B9D790 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E9401DA8A02300B9D790 /* UIImage+fixOrientation.m */; };
+		6CB3E9451DA8A02300B9D790 /* UIImageView+ContentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E9421DA8A02300B9D790 /* UIImageView+ContentFrame.m */; };
+		6CB3E9491DA8A09500B9D790 /* BLCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E9481DA8A09500B9D790 /* BLCropView.m */; };
+		6CB3E94C1DA8A0B400B9D790 /* BLOpenCVHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E94B1DA8A0B400B9D790 /* BLOpenCVHelper.mm */; };
+		6CB3E94F1DA8A4AD00B9D790 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB3E94E1DA8A4AD00B9D790 /* CoreImage.framework */; };
+		6CB3E9511DA8A51000B9D790 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB3E9501DA8A51000B9D790 /* libstdc++.tbd */; };
+		6CB3E9591DA8A63400B9D790 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB3E9581DA8A63400B9D790 /* libjpeg.a */; };
+		6CB3E9601DA8A72100B9D790 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB3E95F1DA8A72100B9D790 /* AssetsLibrary.framework */; };
+		6CB3E9611DA8A8D900B9D790 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB3E9541DA8A5EC00B9D790 /* ImageIO.framework */; };
+		6CB3E9621DA8A8E400B9D790 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB3E95B1DA8A6B500B9D790 /* AVFoundation.framework */; };
+		6CB3E9681DA8AABA00B9D790 /* BLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3E9671DA8AABA00B9D790 /* BLCameraViewController.m */; };
+		6CDC49F91DAE2A34007FCC4F /* BLEditorViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC49F81DAE2A34007FCC4F /* BLEditorViewController.mm */; };
+		6CE309821DB47F690046CDAF /* BLEditorItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE309811DB47F690046CDAF /* BLEditorItemView.m */; };
+		6CE309851DB484ED0046CDAF /* BLImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE309841DB484ED0046CDAF /* BLImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CB3E8F01DA896A800B9D790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CB3E8CB1DA896A800B9D790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CB3E8D21DA896A800B9D790;
+			remoteInfo = OpenCvImageCorrection;
+		};
+		6CB3E8FB1DA896A800B9D790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CB3E8CB1DA896A800B9D790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CB3E8D21DA896A800B9D790;
+			remoteInfo = OpenCvImageCorrection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CB3E8D31DA896A800B9D790 /* OpenCvImageCorrection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCvImageCorrection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB3E8D71DA896A800B9D790 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CB3E8D91DA896A800B9D790 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CB3E8DA1DA896A800B9D790 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CB3E8DC1DA896A800B9D790 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CB3E8DD1DA896A800B9D790 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CB3E8E01DA896A800B9D790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CB3E8E31DA896A800B9D790 /* OpenCvImageCorrection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenCvImageCorrection.xcdatamodel; sourceTree = "<group>"; };
+		6CB3E8E51DA896A800B9D790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CB3E8E81DA896A800B9D790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CB3E8EA1DA896A800B9D790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB3E8EF1DA896A800B9D790 /* OpenCvImageCorrectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCvImageCorrectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB3E8F31DA896A800B9D790 /* OpenCvImageCorrectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCvImageCorrectionTests.m; sourceTree = "<group>"; };
+		6CB3E8F51DA896A800B9D790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB3E8FA1DA896A800B9D790 /* OpenCvImageCorrectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCvImageCorrectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB3E8FE1DA896A800B9D790 /* OpenCvImageCorrectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCvImageCorrectionUITests.m; sourceTree = "<group>"; };
+		6CB3E9001DA896A800B9D790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB3E90C1DA897D600B9D790 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		6CB3E90F1DA89F8000B9D790 /* Camera */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Camera; sourceTree = "<group>"; };
+		6CB3E9111DA89F8000B9D790 /* CameraSessionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraSessionView.h; sourceTree = "<group>"; };
+		6CB3E9121DA89F8000B9D790 /* CameraSessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraSessionView.m; sourceTree = "<group>"; };
+		6CB3E9131DA89F8000B9D790 /* Graphical */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Graphical; sourceTree = "<group>"; };
+		6CB3E9161DA89F8000B9D790 /* CameraDismissButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDismissButton.h; sourceTree = "<group>"; };
+		6CB3E9171DA89F8000B9D790 /* CameraDismissButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraDismissButton.m; sourceTree = "<group>"; };
+		6CB3E9181DA89F8000B9D790 /* CameraFlashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFlashButton.h; sourceTree = "<group>"; };
+		6CB3E9191DA89F8000B9D790 /* CameraFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFlashButton.m; sourceTree = "<group>"; };
+		6CB3E91A1DA89F8000B9D790 /* CameraFocalReticule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFocalReticule.h; sourceTree = "<group>"; };
+		6CB3E91B1DA89F8000B9D790 /* CameraFocalReticule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFocalReticule.m; sourceTree = "<group>"; };
+		6CB3E91C1DA89F8000B9D790 /* CameraShutterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraShutterButton.h; sourceTree = "<group>"; };
+		6CB3E91D1DA89F8000B9D790 /* CameraShutterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraShutterButton.m; sourceTree = "<group>"; };
+		6CB3E91E1DA89F8000B9D790 /* CameraToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraToggleButton.h; sourceTree = "<group>"; };
+		6CB3E91F1DA89F8000B9D790 /* CameraToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraToggleButton.m; sourceTree = "<group>"; };
+		6CB3E9201DA89F8000B9D790 /* LaunchCameraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchCameraButton.h; sourceTree = "<group>"; };
+		6CB3E9211DA89F8000B9D790 /* LaunchCameraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchCameraButton.m; sourceTree = "<group>"; };
+		6CB3E9221DA89F8000B9D790 /* Cool Camera Mockup.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cool Camera Mockup.sketch"; sourceTree = "<group>"; };
+		6CB3E9231DA89F8000B9D790 /* PaintCodeFile.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PaintCodeFile.pcvd; sourceTree = "<group>"; };
+		6CB3E9251DA89F8000B9D790 /* CameraStyleKitClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraStyleKitClass.h; sourceTree = "<group>"; };
+		6CB3E9261DA89F8000B9D790 /* CameraStyleKitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraStyleKitClass.m; sourceTree = "<group>"; };
+		6CB3E9271DA89F8000B9D790 /* Model */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Model; sourceTree = "<group>"; };
+		6CB3E9291DA89F8000B9D790 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		6CB3E92A1DA89F8000B9D790 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		6CB3E92B1DA89F8000B9D790 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6CB3E92C1DA89F8000B9D790 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		6CB3E93D1DA8A02300B9D790 /* UIColor+HexRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexRepresentation.h"; sourceTree = "<group>"; };
+		6CB3E93E1DA8A02300B9D790 /* UIColor+HexRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexRepresentation.m"; sourceTree = "<group>"; };
+		6CB3E93F1DA8A02300B9D790 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		6CB3E9401DA8A02300B9D790 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		6CB3E9411DA8A02300B9D790 /* UIImageView+ContentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ContentFrame.h"; sourceTree = "<group>"; };
+		6CB3E9421DA8A02300B9D790 /* UIImageView+ContentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ContentFrame.m"; sourceTree = "<group>"; };
+		6CB3E9471DA8A09500B9D790 /* BLCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCropView.h; sourceTree = "<group>"; };
+		6CB3E9481DA8A09500B9D790 /* BLCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCropView.m; sourceTree = "<group>"; };
+		6CB3E94A1DA8A0B400B9D790 /* BLOpenCVHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLOpenCVHelper.h; sourceTree = "<group>"; };
+		6CB3E94B1DA8A0B400B9D790 /* BLOpenCVHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BLOpenCVHelper.mm; sourceTree = "<group>"; };
+		6CB3E94D1DA8A1ED00B9D790 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6CB3E94E1DA8A4AD00B9D790 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		6CB3E9501DA8A51000B9D790 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		6CB3E9521DA8A51B00B9D790 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6CB3E9541DA8A5EC00B9D790 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		6CB3E9561DA8A60100B9D790 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		6CB3E9581DA8A63400B9D790 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		6CB3E95B1DA8A6B500B9D790 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6CB3E95D1DA8A6C000B9D790 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		6CB3E95F1DA8A72100B9D790 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6CB3E9661DA8AABA00B9D790 /* BLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCameraViewController.h; sourceTree = "<group>"; };
+		6CB3E9671DA8AABA00B9D790 /* BLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCameraViewController.m; sourceTree = "<group>"; };
+		6CDC49F71DAE2A34007FCC4F /* BLEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEditorViewController.h; sourceTree = "<group>"; };
+		6CDC49F81DAE2A34007FCC4F /* BLEditorViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BLEditorViewController.mm; sourceTree = "<group>"; };
+		6CE309801DB47F690046CDAF /* BLEditorItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEditorItemView.h; sourceTree = "<group>"; };
+		6CE309811DB47F690046CDAF /* BLEditorItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEditorItemView.m; sourceTree = "<group>"; };
+		6CE309831DB484ED0046CDAF /* BLImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLImageViewController.h; sourceTree = "<group>"; };
+		6CE309841DB484ED0046CDAF /* BLImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLImageViewController.m; sourceTree = "<group>"; };
+		7C49BCA1873EB49756A5D869 /* libPods-OpenCvImageCorrection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenCvImageCorrection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9227CC0AD97CCC305639FE9E /* Pods-OpenCvImageCorrection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCvImageCorrection.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCvImageCorrection/Pods-OpenCvImageCorrection.release.xcconfig"; sourceTree = "<group>"; };
+		C6592BCD02835463ECB3B626 /* Pods-OpenCvImageCorrection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCvImageCorrection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCvImageCorrection/Pods-OpenCvImageCorrection.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CB3E8D01DA896A800B9D790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB3E9621DA8A8E400B9D790 /* AVFoundation.framework in Frameworks */,
+				6CB3E9611DA8A8D900B9D790 /* ImageIO.framework in Frameworks */,
+				6CB3E9601DA8A72100B9D790 /* AssetsLibrary.framework in Frameworks */,
+				6CB3E9511DA8A51000B9D790 /* libstdc++.tbd in Frameworks */,
+				6CB3E94F1DA8A4AD00B9D790 /* CoreImage.framework in Frameworks */,
+				6CB3E90D1DA897D700B9D790 /* opencv2.framework in Frameworks */,
+				6CB3E9591DA8A63400B9D790 /* libjpeg.a in Frameworks */,
+				409747A5640BB2517EE57D0A /* libPods-OpenCvImageCorrection.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB3E8EC1DA896A800B9D790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB3E8F71DA896A800B9D790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CB3E8CA1DA896A800B9D790 = {
+			isa = PBXGroup;
+			children = (
+				6CB3E8D51DA896A800B9D790 /* OpenCvImageCorrection */,
+				6CB3E8F21DA896A800B9D790 /* OpenCvImageCorrectionTests */,
+				6CB3E8FD1DA896A800B9D790 /* OpenCvImageCorrectionUITests */,
+				6CB3E8D41DA896A800B9D790 /* Products */,
+				B29767A19B406A9CF50B538B /* Pods */,
+				C26F562C7E3439B98E540CA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CB3E8D41DA896A800B9D790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E8D31DA896A800B9D790 /* OpenCvImageCorrection.app */,
+				6CB3E8EF1DA896A800B9D790 /* OpenCvImageCorrectionTests.xctest */,
+				6CB3E8FA1DA896A800B9D790 /* OpenCvImageCorrectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CB3E8D51DA896A800B9D790 /* OpenCvImageCorrection */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E9581DA8A63400B9D790 /* libjpeg.a */,
+				6CB3E90C1DA897D600B9D790 /* opencv2.framework */,
+				6CB3E9461DA8A07800B9D790 /* BLOpenCvHelper */,
+				6CB3E93C1DA8A02300B9D790 /* ImgCategories */,
+				6CB3E90E1DA89F8000B9D790 /* CustomizableCamera */,
+				6CB3E8D91DA896A800B9D790 /* AppDelegate.h */,
+				6CB3E8DA1DA896A800B9D790 /* AppDelegate.m */,
+				6CB3E8DC1DA896A800B9D790 /* ViewController.h */,
+				6CB3E8DD1DA896A800B9D790 /* ViewController.m */,
+				6CB3E9661DA8AABA00B9D790 /* BLCameraViewController.h */,
+				6CB3E9671DA8AABA00B9D790 /* BLCameraViewController.m */,
+				6CDC49F71DAE2A34007FCC4F /* BLEditorViewController.h */,
+				6CDC49F81DAE2A34007FCC4F /* BLEditorViewController.mm */,
+				6CE309801DB47F690046CDAF /* BLEditorItemView.h */,
+				6CE309811DB47F690046CDAF /* BLEditorItemView.m */,
+				6CE309831DB484ED0046CDAF /* BLImageViewController.h */,
+				6CE309841DB484ED0046CDAF /* BLImageViewController.m */,
+				6CB3E8DF1DA896A800B9D790 /* Main.storyboard */,
+				6CB3E8E51DA896A800B9D790 /* Assets.xcassets */,
+				6CB3E8E71DA896A800B9D790 /* LaunchScreen.storyboard */,
+				6CB3E8EA1DA896A800B9D790 /* Info.plist */,
+				6CB3E8E21DA896A800B9D790 /* OpenCvImageCorrection.xcdatamodeld */,
+				6CB3E8D61DA896A800B9D790 /* Supporting Files */,
+			);
+			path = OpenCvImageCorrection;
+			sourceTree = "<group>";
+		};
+		6CB3E8D61DA896A800B9D790 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E8D71DA896A800B9D790 /* main.m */,
+				6CB3E94D1DA8A1ED00B9D790 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CB3E8F21DA896A800B9D790 /* OpenCvImageCorrectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E8F31DA896A800B9D790 /* OpenCvImageCorrectionTests.m */,
+				6CB3E8F51DA896A800B9D790 /* Info.plist */,
+			);
+			path = OpenCvImageCorrectionTests;
+			sourceTree = "<group>";
+		};
+		6CB3E8FD1DA896A800B9D790 /* OpenCvImageCorrectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E8FE1DA896A800B9D790 /* OpenCvImageCorrectionUITests.m */,
+				6CB3E9001DA896A800B9D790 /* Info.plist */,
+			);
+			path = OpenCvImageCorrectionUITests;
+			sourceTree = "<group>";
+		};
+		6CB3E90E1DA89F8000B9D790 /* CustomizableCamera */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E90F1DA89F8000B9D790 /* Camera */,
+				6CB3E9101DA89F8000B9D790 /* Camera View */,
+				6CB3E9131DA89F8000B9D790 /* Graphical */,
+				6CB3E9141DA89F8000B9D790 /* Graphical Assets */,
+				6CB3E9271DA89F8000B9D790 /* Model */,
+				6CB3E9281DA89F8000B9D790 /* Model Classes */,
+			);
+			path = CustomizableCamera;
+			sourceTree = "<group>";
+		};
+		6CB3E9101DA89F8000B9D790 /* Camera View */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E9111DA89F8000B9D790 /* CameraSessionView.h */,
+				6CB3E9121DA89F8000B9D790 /* CameraSessionView.m */,
+			);
+			path = "Camera View";
+			sourceTree = "<group>";
+		};
+		6CB3E9141DA89F8000B9D790 /* Graphical Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E9151DA89F8000B9D790 /* CameraViewComponents */,
+				6CB3E9221DA89F8000B9D790 /* Cool Camera Mockup.sketch */,
+				6CB3E9231DA89F8000B9D790 /* PaintCodeFile.pcvd */,
+				6CB3E9241DA89F8000B9D790 /* UI Assets */,
+			);
+			path = "Graphical Assets";
+			sourceTree = "<group>";
+		};
+		6CB3E9151DA89F8000B9D790 /* CameraViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E9161DA89F8000B9D790 /* CameraDismissButton.h */,
+				6CB3E9171DA89F8000B9D790 /* CameraDismissButton.m */,
+				6CB3E9181DA89F8000B9D790 /* CameraFlashButton.h */,
+				6CB3E9191DA89F8000B9D790 /* CameraFlashButton.m */,
+				6CB3E91A1DA89F8000B9D790 /* CameraFocalReticule.h */,
+				6CB3E91B1DA89F8000B9D790 /* CameraFocalReticule.m */,
+				6CB3E91C1DA89F8000B9D790 /* CameraShutterButton.h */,
+				6CB3E91D1DA89F8000B9D790 /* CameraShutterButton.m */,
+				6CB3E91E1DA89F8000B9D790 /* CameraToggleButton.h */,
+				6CB3E91F1DA89F8000B9D790 /* CameraToggleButton.m */,
+				6CB3E9201DA89F8000B9D790 /* LaunchCameraButton.h */,
+				6CB3E9211DA89F8000B9D790 /* LaunchCameraButton.m */,
+			);
+			path = CameraViewComponents;
+			sourceTree = "<group>";
+		};
+		6CB3E9241DA89F8000B9D790 /* UI Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E9251DA89F8000B9D790 /* CameraStyleKitClass.h */,
+				6CB3E9261DA89F8000B9D790 /* CameraStyleKitClass.m */,
+			);
+			path = "UI Assets";
+			sourceTree = "<group>";
+		};
+		6CB3E9281DA89F8000B9D790 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E9291DA89F8000B9D790 /* CaptureSessionManager.h */,
+				6CB3E92A1DA89F8000B9D790 /* CaptureSessionManager.m */,
+				6CB3E92B1DA89F8000B9D790 /* Constants.h */,
+				6CB3E92C1DA89F8000B9D790 /* Constants.m */,
+			);
+			path = "Model Classes";
+			sourceTree = "<group>";
+		};
+		6CB3E93C1DA8A02300B9D790 /* ImgCategories */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E93D1DA8A02300B9D790 /* UIColor+HexRepresentation.h */,
+				6CB3E93E1DA8A02300B9D790 /* UIColor+HexRepresentation.m */,
+				6CB3E93F1DA8A02300B9D790 /* UIImage+fixOrientation.h */,
+				6CB3E9401DA8A02300B9D790 /* UIImage+fixOrientation.m */,
+				6CB3E9411DA8A02300B9D790 /* UIImageView+ContentFrame.h */,
+				6CB3E9421DA8A02300B9D790 /* UIImageView+ContentFrame.m */,
+			);
+			path = ImgCategories;
+			sourceTree = "<group>";
+		};
+		6CB3E9461DA8A07800B9D790 /* BLOpenCvHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E9471DA8A09500B9D790 /* BLCropView.h */,
+				6CB3E9481DA8A09500B9D790 /* BLCropView.m */,
+				6CB3E94A1DA8A0B400B9D790 /* BLOpenCVHelper.h */,
+				6CB3E94B1DA8A0B400B9D790 /* BLOpenCVHelper.mm */,
+			);
+			path = BLOpenCvHelper;
+			sourceTree = "<group>";
+		};
+		B29767A19B406A9CF50B538B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6592BCD02835463ECB3B626 /* Pods-OpenCvImageCorrection.debug.xcconfig */,
+				9227CC0AD97CCC305639FE9E /* Pods-OpenCvImageCorrection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C26F562C7E3439B98E540CA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CB3E95F1DA8A72100B9D790 /* AssetsLibrary.framework */,
+				6CB3E95D1DA8A6C000B9D790 /* AVKit.framework */,
+				6CB3E95B1DA8A6B500B9D790 /* AVFoundation.framework */,
+				6CB3E9561DA8A60100B9D790 /* libiconv.tbd */,
+				6CB3E9541DA8A5EC00B9D790 /* ImageIO.framework */,
+				6CB3E9521DA8A51B00B9D790 /* libz.tbd */,
+				6CB3E9501DA8A51000B9D790 /* libstdc++.tbd */,
+				6CB3E94E1DA8A4AD00B9D790 /* CoreImage.framework */,
+				7C49BCA1873EB49756A5D869 /* libPods-OpenCvImageCorrection.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CB3E8D21DA896A800B9D790 /* OpenCvImageCorrection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB3E9031DA896A800B9D790 /* Build configuration list for PBXNativeTarget "OpenCvImageCorrection" */;
+			buildPhases = (
+				1E10FCD81FCB34155641B38F /* [CP] Check Pods Manifest.lock */,
+				6CB3E8CF1DA896A800B9D790 /* Sources */,
+				6CB3E8D01DA896A800B9D790 /* Frameworks */,
+				6CB3E8D11DA896A800B9D790 /* Resources */,
+				55DBC5426102A4BB9EC428C2 /* [CP] Embed Pods Frameworks */,
+				75A5EE95FE14DA6E52AAC818 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCvImageCorrection;
+			productName = OpenCvImageCorrection;
+			productReference = 6CB3E8D31DA896A800B9D790 /* OpenCvImageCorrection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CB3E8EE1DA896A800B9D790 /* OpenCvImageCorrectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB3E9061DA896A800B9D790 /* Build configuration list for PBXNativeTarget "OpenCvImageCorrectionTests" */;
+			buildPhases = (
+				6CB3E8EB1DA896A800B9D790 /* Sources */,
+				6CB3E8EC1DA896A800B9D790 /* Frameworks */,
+				6CB3E8ED1DA896A800B9D790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CB3E8F11DA896A800B9D790 /* PBXTargetDependency */,
+			);
+			name = OpenCvImageCorrectionTests;
+			productName = OpenCvImageCorrectionTests;
+			productReference = 6CB3E8EF1DA896A800B9D790 /* OpenCvImageCorrectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CB3E8F91DA896A800B9D790 /* OpenCvImageCorrectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB3E9091DA896A800B9D790 /* Build configuration list for PBXNativeTarget "OpenCvImageCorrectionUITests" */;
+			buildPhases = (
+				6CB3E8F61DA896A800B9D790 /* Sources */,
+				6CB3E8F71DA896A800B9D790 /* Frameworks */,
+				6CB3E8F81DA896A800B9D790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CB3E8FC1DA896A800B9D790 /* PBXTargetDependency */,
+			);
+			name = OpenCvImageCorrectionUITests;
+			productName = OpenCvImageCorrectionUITests;
+			productReference = 6CB3E8FA1DA896A800B9D790 /* OpenCvImageCorrectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CB3E8CB1DA896A800B9D790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lonelyBanana;
+				TargetAttributes = {
+					6CB3E8D21DA896A800B9D790 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EF6M2VA3QM;
+						ProvisioningStyle = Automatic;
+					};
+					6CB3E8EE1DA896A800B9D790 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CB3E8D21DA896A800B9D790;
+					};
+					6CB3E8F91DA896A800B9D790 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CB3E8D21DA896A800B9D790;
+					};
+				};
+			};
+			buildConfigurationList = 6CB3E8CE1DA896A800B9D790 /* Build configuration list for PBXProject "OpenCvImageCorrection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CB3E8CA1DA896A800B9D790;
+			productRefGroup = 6CB3E8D41DA896A800B9D790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CB3E8D21DA896A800B9D790 /* OpenCvImageCorrection */,
+				6CB3E8EE1DA896A800B9D790 /* OpenCvImageCorrectionTests */,
+				6CB3E8F91DA896A800B9D790 /* OpenCvImageCorrectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CB3E8D11DA896A800B9D790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB3E8E91DA896A800B9D790 /* LaunchScreen.storyboard in Resources */,
+				6CB3E8E61DA896A800B9D790 /* Assets.xcassets in Resources */,
+				6CB3E8E11DA896A800B9D790 /* Main.storyboard in Resources */,
+				6CB3E9371DA89F8000B9D790 /* PaintCodeFile.pcvd in Resources */,
+				6CB3E92F1DA89F8000B9D790 /* Graphical in Resources */,
+				6CB3E9361DA89F8000B9D790 /* Cool Camera Mockup.sketch in Resources */,
+				6CB3E9391DA89F8000B9D790 /* Model in Resources */,
+				6CB3E92D1DA89F8000B9D790 /* Camera in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB3E8ED1DA896A800B9D790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB3E8F81DA896A800B9D790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E10FCD81FCB34155641B38F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55DBC5426102A4BB9EC428C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCvImageCorrection/Pods-OpenCvImageCorrection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75A5EE95FE14DA6E52AAC818 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCvImageCorrection/Pods-OpenCvImageCorrection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CB3E8CF1DA896A800B9D790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB3E8E41DA896A800B9D790 /* OpenCvImageCorrection.xcdatamodeld in Sources */,
+				6CB3E92E1DA89F8000B9D790 /* CameraSessionView.m in Sources */,
+				6CB3E9441DA8A02300B9D790 /* UIImage+fixOrientation.m in Sources */,
+				6CB3E9311DA89F8000B9D790 /* CameraFlashButton.m in Sources */,
+				6CB3E9331DA89F8000B9D790 /* CameraShutterButton.m in Sources */,
+				6CB3E9381DA89F8000B9D790 /* CameraStyleKitClass.m in Sources */,
+				6CE309821DB47F690046CDAF /* BLEditorItemView.m in Sources */,
+				6CB3E93B1DA89F8000B9D790 /* Constants.m in Sources */,
+				6CB3E9351DA89F8000B9D790 /* LaunchCameraButton.m in Sources */,
+				6CB3E9341DA89F8000B9D790 /* CameraToggleButton.m in Sources */,
+				6CB3E9681DA8AABA00B9D790 /* BLCameraViewController.m in Sources */,
+				6CB3E9431DA8A02300B9D790 /* UIColor+HexRepresentation.m in Sources */,
+				6CB3E9451DA8A02300B9D790 /* UIImageView+ContentFrame.m in Sources */,
+				6CDC49F91DAE2A34007FCC4F /* BLEditorViewController.mm in Sources */,
+				6CB3E9321DA89F8000B9D790 /* CameraFocalReticule.m in Sources */,
+				6CB3E8DE1DA896A800B9D790 /* ViewController.m in Sources */,
+				6CB3E93A1DA89F8000B9D790 /* CaptureSessionManager.m in Sources */,
+				6CB3E9491DA8A09500B9D790 /* BLCropView.m in Sources */,
+				6CB3E9301DA89F8000B9D790 /* CameraDismissButton.m in Sources */,
+				6CE309851DB484ED0046CDAF /* BLImageViewController.m in Sources */,
+				6CB3E8DB1DA896A800B9D790 /* AppDelegate.m in Sources */,
+				6CB3E94C1DA8A0B400B9D790 /* BLOpenCVHelper.mm in Sources */,
+				6CB3E8D81DA896A800B9D790 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB3E8EB1DA896A800B9D790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB3E8F41DA896A800B9D790 /* OpenCvImageCorrectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB3E8F61DA896A800B9D790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB3E8FF1DA896A800B9D790 /* OpenCvImageCorrectionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CB3E8F11DA896A800B9D790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CB3E8D21DA896A800B9D790 /* OpenCvImageCorrection */;
+			targetProxy = 6CB3E8F01DA896A800B9D790 /* PBXContainerItemProxy */;
+		};
+		6CB3E8FC1DA896A800B9D790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CB3E8D21DA896A800B9D790 /* OpenCvImageCorrection */;
+			targetProxy = 6CB3E8FB1DA896A800B9D790 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CB3E8DF1DA896A800B9D790 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB3E8E01DA896A800B9D790 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CB3E8E71DA896A800B9D790 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB3E8E81DA896A800B9D790 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CB3E9011DA896A800B9D790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CB3E9021DA896A800B9D790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CB3E9041DA896A800B9D790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6592BCD02835463ECB3B626 /* Pods-OpenCvImageCorrection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EF6M2VA3QM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenCvImageCorrection",
+				);
+				GCC_PREFIX_HEADER = /Users/may/Desktop/OpenCvImageCorrection/OpenCvImageCorrection/PrefixHeader.pch;
+				INFOPLIST_FILE = OpenCvImageCorrection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenCvImageCorrection",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.woyaoqiji.kaws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CB3E9051DA896A800B9D790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9227CC0AD97CCC305639FE9E /* Pods-OpenCvImageCorrection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EF6M2VA3QM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenCvImageCorrection",
+				);
+				GCC_PREFIX_HEADER = /Users/may/Desktop/OpenCvImageCorrection/OpenCvImageCorrection/PrefixHeader.pch;
+				INFOPLIST_FILE = OpenCvImageCorrection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenCvImageCorrection",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.woyaoqiji.kaws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CB3E9071DA896A800B9D790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenCvImageCorrectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonelyBanana.OpenCvImageCorrectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCvImageCorrection.app/OpenCvImageCorrection";
+			};
+			name = Debug;
+		};
+		6CB3E9081DA896A800B9D790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenCvImageCorrectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonelyBanana.OpenCvImageCorrectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCvImageCorrection.app/OpenCvImageCorrection";
+			};
+			name = Release;
+		};
+		6CB3E90A1DA896A800B9D790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenCvImageCorrectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonelyBanana.OpenCvImageCorrectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenCvImageCorrection;
+			};
+			name = Debug;
+		};
+		6CB3E90B1DA896A800B9D790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenCvImageCorrectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonelyBanana.OpenCvImageCorrectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenCvImageCorrection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CB3E8CE1DA896A800B9D790 /* Build configuration list for PBXProject "OpenCvImageCorrection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB3E9011DA896A800B9D790 /* Debug */,
+				6CB3E9021DA896A800B9D790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB3E9031DA896A800B9D790 /* Build configuration list for PBXNativeTarget "OpenCvImageCorrection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB3E9041DA896A800B9D790 /* Debug */,
+				6CB3E9051DA896A800B9D790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB3E9061DA896A800B9D790 /* Build configuration list for PBXNativeTarget "OpenCvImageCorrectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB3E9071DA896A800B9D790 /* Debug */,
+				6CB3E9081DA896A800B9D790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB3E9091DA896A800B9D790 /* Build configuration list for PBXNativeTarget "OpenCvImageCorrectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB3E90A1DA896A800B9D790 /* Debug */,
+				6CB3E90B1DA896A800B9D790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6CB3E8E21DA896A800B9D790 /* OpenCvImageCorrection.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6CB3E8E31DA896A800B9D790 /* OpenCvImageCorrection.xcdatamodel */,
+			);
+			currentVersion = 6CB3E8E31DA896A800B9D790 /* OpenCvImageCorrection.xcdatamodel */;
+			path = OpenCvImageCorrection.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6CB3E8CB1DA896A800B9D790 /* Project object */;
+}
